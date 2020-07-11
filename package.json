@@ -1,0 +1,22 @@
+{
+  "name": "taxjar-calcorado",
+  "version": "1.0.0",
+  "description": "Processes Colorado multiple home rule city data for TaxJar API calculations",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ryanpl-boundley/taxjar-calcorado.git"
+  },
+  "keywords": [
+    "taxjar"
+  ],
+  "author": "Ryan Le",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ryanpl-boundley/taxjar-calcorado/issues"
+  },
+  "homepage": "https://github.com/ryanpl-boundley/taxjar-calcorado#readme"
+}
