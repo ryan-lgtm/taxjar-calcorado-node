@@ -7,10 +7,10 @@ In order to simplify the requirement, this package allows sending all home-rule 
 
 ## Installation
 
-Use the package manager [pip](https://pip.pypa.io/en/stable/) to install taxjar-calcorado-node.
+Use the package manager [npm](https://www.npmjs.com/) to install taxjar-calcorado-node.
 
 ```bash
-pip install taxjar-calcorado-node
+npm install taxjar-calcorado-node
 ```
 
 Alternatively, the entire code used to make this work is pretty straight-forward:
