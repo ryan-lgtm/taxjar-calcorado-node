@@ -1,0 +1,60 @@
+{
+  to_country: 'US',
+  to_zip: '80217',
+  to_state: 'CO',
+  to_city: 'Breinigsville',
+  to_street: '7526 E 53rd Pl',
+  amount: 15,
+  shipping: 1.5,
+  nexus_addresses: [
+    {
+      id: 'Denver Nexus',
+      country: 'US',
+      zip: '80217',
+      state: 'CO',
+      city: 'Denver',
+      street: '7550 E 53rd Pl'
+    },
+    {
+      id: 'Boulder Nexus',
+      country: 'US',
+      zip: '80302',
+      state: 'CO',
+      city: 'Boulder',
+      street: '1905 15th St'
+    },
+    {
+      id: 'Centennial Nexus',
+      country: 'US',
+      zip: '80122',
+      state: 'CO',
+      city: 'Centennial',
+      street: '2221 E Arapahoe Rd'
+    },
+    {
+      id: 'Centennial Nexus',
+      country: 'US',
+      zip: '80122',
+      state: 'CO',
+      city: 'Centennial',
+      street: '2221 E Arapahoe Rd'
+    },
+    {
+      id: 'Central City Nexus',
+      country: 'US',
+      zip: '80427',
+      state: 'CO',
+      city: 'Central City',
+      street: '149 Gregory St'
+    }
+  ],
+  line_items: [
+    {
+      id: '1',
+      quantity: 1,
+      product_tax_code: '',
+      unit_price: 15,
+      discount: 0
+    }
+  ]
+}
