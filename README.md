@@ -14,7 +14,8 @@ npm install taxjar-calcorado-node
 ```
 
 Alternatively, the entire code used to make this work is pretty straight-forward:
-```module.exports = (apiReq) => {
+```
+module.exports = (apiReq) => {
   let toCity = apiReq.to_city.toUpperCase();
   let nexusAddresses = apiReq.nexus_addresses;
 
