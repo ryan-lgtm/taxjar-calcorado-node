@@ -40,7 +40,7 @@ module.exports = (apiReq) => {
 
 Assuming shipping details are available, here's the request body:
 ```
-let taxCalc = {
+taxCalc = {
   to_country: 'US',
   to_zip: '80217',
   to_state: 'CO',
@@ -63,7 +63,7 @@ let taxCalc = {
 ..and here's where we conditionally tie in all home-rule city addresses:
 ```
 
-if (shipping.toState == 'CO') {
+if (taxCalc.toState == 'CO') {
   taxCalc.nexus_addresses = [
     {
       id: 'Denver Nexus',
