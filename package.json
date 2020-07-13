@@ -1,6 +1,6 @@
 {
   "name": "taxjar-calcorado-node",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "Processes Colorado multiple home rule city data for TaxJar API calculations",
   "main": "index.js",
   "scripts": {
